@@ -1,10 +1,11 @@
+/* Set up the grid container */
 .holder {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
-  width: 200px; /* Total size of the grid */
-  height: 200px;
-  gap: 10px; /* Adjust the gap between grid items as needed */
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Two columns of 100px each */
+    grid-template-rows: repeat(2, 100px);    /* Two rows of 100px each */
+    width: 200px; /* Total size of 200px */
+    height: 200px; /* Total size of 200px */
+    grid-gap: 0; /* No gap between grid items */
 }
 
 .item {
